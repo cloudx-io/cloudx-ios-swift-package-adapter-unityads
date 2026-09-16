@@ -24,6 +24,7 @@ flag to retain the adapter registration code.
 
 | Package version | CloudX adapter | Unity Ads SDK |
 | --- | --- | --- |
+| `4200100.0.0` | `4.20.1.0` | `4.20.1` |
 | `4190000.0.0` | `4.19.0.0` | `4.19.0` |
 
 The package installs CloudX Core and Unity Ads SDK as dependencies. Import

@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git",
-            exact: "4.19.0"
+            exact: "4.20.1"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXUnityAdsAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-unityads/4.19.0.0/CloudXUnityAdsAdapter.xcframework.zip",
-            checksum: "31b79d20f0983464f7826fbc047ec491fab9d766cf5e6beb738ee15c28dbfe32"
+            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-unityads/4.20.1.0/CloudXUnityAdsAdapter.xcframework.zip",
+            checksum: "fff9c83fcb51376157a65a2a847fc04d02bf67b913e52eef5b0126dc880914ff"
         ),
         .target(
             name: "CloudXUnityAdsAdapterPackage",
