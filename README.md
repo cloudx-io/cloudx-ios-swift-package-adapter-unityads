@@ -5,7 +5,7 @@ This repository distributes the Unity Ads adapter for the CloudX iOS SDK.
 ## Requirements
 
 - iOS 13 or later
-- Xcode 16 or later
+- Xcode 26.1 or later
 - CloudX Core 3.9.1 or later
 
 ## Installation
