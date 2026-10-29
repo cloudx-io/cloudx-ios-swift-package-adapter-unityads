@@ -8,7 +8,7 @@
 @implementation CloudXUnityAdsAdapterObjCTests
 
 - (void)testAdapterIsLinkedAndRegistered {
-    XCTAssertEqualObjects(CLXUnityAdsAdapterVersion, @"4.20.1.1");
+    XCTAssertEqualObjects(CLXUnityAdsAdapterVersion, @"4.21.0.0");
     XCTAssertNotNil(NSClassFromString(@"CLXUnityAdsInitializer"));
 }
 

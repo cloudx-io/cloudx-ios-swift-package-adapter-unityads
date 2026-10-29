@@ -38,6 +38,6 @@ jobs:
       - name: Verify artifact checksum
         run: |
           curl --fail --location --output /tmp/CloudXUnityAdsAdapter.xcframework.zip \
-            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-unityads/releases/download/binary/4200101.0.0/CloudXUnityAdsAdapter.xcframework.zip
+            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-unityads/releases/download/binary/4210000.0.0/CloudXUnityAdsAdapter.xcframework.zip
           test "$(swift package compute-checksum /tmp/CloudXUnityAdsAdapter.xcframework.zip)" = \
-            "7ac75108dc7ee7d7ee87d797384a45664c689f4e0efbedff3d9ebbbe34375774"
+            "ecacc5b05cbb3b37df325873c1ffd33553385bfa53fa72d764d5b85041fd6c34"
