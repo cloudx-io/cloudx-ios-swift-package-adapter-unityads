@@ -4,7 +4,7 @@ import XCTest
 
 final class CloudXUnityAdsAdapterSwiftTests: XCTestCase {
     func testAdapterIsLinkedAndRegistered() {
-        XCTAssertEqual(CLXUnityAdsAdapterVersion, "4.20.1.1")
+        XCTAssertEqual(CLXUnityAdsAdapterVersion, "4.21.0.0")
         XCTAssertNotNil(NSClassFromString("CLXUnityAdsInitializer"))
     }
 }
